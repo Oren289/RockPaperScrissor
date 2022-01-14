@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>RockPaperScrissor</title>
+  </head>
+  <body>
+    <div class="container display">
+      <div>
+        <div class="playerText">You</div>
+        <div class="box ready" id="player-box"></div>
+      </div>
+      <div class="scoreText">
+        <span id="player-score">0</span>
+        -
+        <span id="com-score">0</span>
+      </div>
+      <div>
+        <div class="playerText">COM</div>
+        <div class="com box ready" id="com-box"></div>
+      </div>
+    </div>
+    <div class="container input">
+      <button class="rockButton" id="rock-button"></button>
+      <button class="paperButton" id="paper-button"></button>
+      <button class="scrissorButton" id="scrissor-button"></button>
+      <button class="nextButton" id="next-button">Next</button>
+    </div>
+    <div class="endGameMessage" id="end-game-message">
+      <div class="endGameText" id="end-game-text"></div>
+      <button class="restartButton" id="restart-button">Restart</button>
+    </div>
+    <div class="tutorial">
+      <h3>How to play?</h3>
+      <p>This is a traditional rock, paper, and scrissor game. All you have to do is to choose between rock, paper, and scrissor. The first who get 5 points is the winner. Have fun!</p>
+    </div>
+  </body>
+</html>
